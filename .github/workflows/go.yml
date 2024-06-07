@@ -20,6 +20,7 @@ jobs:
 
     - name: Go Version
       run: go version
+      shell: bash
 
     - name: Set up Go 1.23
       uses: actions/setup-go@v2
@@ -28,6 +29,7 @@ jobs:
         
     - name: Build
       run: go build
+      shell: bash
       
     - name: actions
       uses: AlexVance-CapTech/Actions@v1
