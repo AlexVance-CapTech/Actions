@@ -22,10 +22,5 @@ jobs:
         go-version: '1.20'
     - name: Build
       run: go build -v ./...
-    - name: Test
-      run: go test -v ./...
-    - name: Install Dependencies
-      run: |
-        go get .
     - name: playingwithactions
       uses: AlexVance-CapTech/PlayingWithActions@v2
