@@ -19,7 +19,7 @@ jobs:
         go-version: [ '1.19', '1.20', '1.21.x' ]
         
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v2
 
     - name: Go Version
       run: go version
@@ -33,4 +33,4 @@ jobs:
       run: go build
       
     - name: playingwithactions
-      uses: AlexVance-CapTech/PlayingWithActions@v2
+      uses: AlexVance-CapTech/PlayingWithActions@v1
