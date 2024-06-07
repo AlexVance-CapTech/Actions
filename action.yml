@@ -1,0 +1,8 @@
+name: "action"
+description: "github action example"
+
+runs:
+  using: composite
+  steps:
+  - run: go run main.go
+    shell: bash
