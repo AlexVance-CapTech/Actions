@@ -6,3 +6,5 @@ runs:
   steps:
   - run: go run main.go
     shell: bash
+  - run: curl http://localhost:8080/albums/1
+    shell: bash
