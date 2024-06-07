@@ -32,5 +32,5 @@ jobs:
     - name: Build
       run: go build
       
-    - name: playingwithactions
-      uses: AlexVance-CapTech/PlayingWithActions@v1
+    - name: actions
+      uses: AlexVance-CapTech/Actions@v1
